@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "test:lint": "NODE_ENV=test vue-cli-service lint --max-warnings 0",
+    "test:lint": "NODE_ENV=test vue-cli-service lint --max-warnings 0"
   },
   "dependencies": {
     "core-js": "^3.1.2",
