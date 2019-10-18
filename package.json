@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "test:lint": "NODE_ENV=test vue-cli-service lint --max-warnings 0"
+    "test:lint": "NODE_ENV=test vue-cli-service lint --max-warnings 0",
+    "test:html": "NODE_ENV=test node_modules/.bin/html-validate --config .github/.html-validate.json --max-warnings 0 --ext html ./dist",
+    "test:vue": "NODE_ENV=test vue-cli-service html-validate --config .github/.vue-validate.json --max-warnings 0",
+    "vue:start": "vue-cli-service serve",
+    "vue:serve": "yarn vue:start --open"
   },
   "dependencies": {
     "core-js": "^3.1.2",
