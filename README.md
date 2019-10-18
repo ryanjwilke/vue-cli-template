@@ -4,16 +4,22 @@
 
 [![GitHub Status](https://github.com/ryanjwilke/vue-cli-template/workflows/Production/badge.svg)](https://github.com/ryanjwilke/vue-cli-template/actions)
 
-## Project setup
+## First-time Setup
 
 ```
 yarn install
+yarn git:init
+```
+
+### Pull updates from the upstream template repository.
+```
+yarn git:pull:template
 ```
 
 ### Compiles and hot-reloads for development
 
 ```
-yarn serve
+yarn vue:serve
 ```
 
 ### Compiles and minifies for production
