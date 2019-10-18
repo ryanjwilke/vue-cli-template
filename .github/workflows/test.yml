@@ -49,60 +49,59 @@ jobs:
       - run: yarn build
       - run: yarn test:vue
       - run: yarn test:html
-
-  jest:
-    name: Jest
-    runs-on: ubuntu-latest
-    if: github.event.action == 'opened' || github.event.action == 'synchronize'
-    steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1.1.2
-        with:
-          node-version: 11.x
-      - run: npm install yarn -g
-      - run: yarn install
-      - run: yarn test:unit
-      - run: yarn test:coverage
-
-  puppeteer:
-    name: Puppeteer
-    runs-on: ubuntu-latest
-    steps:
-      - name: Git Checkout
-        uses: actions/checkout@v1
-        with:
-          fetch-depth: 1
-      - name: Setup Node
-        uses: actions/setup-node@v1.1.2
-        with:
-          node-version: 11.x
-      - name: Install Yarn with NPM
-        run: npm install yarn -g
-      - name: Yarn Install
-        run: yarn install
-      - name: Jest Screenshot
-        run: yarn test:e2e:ci
-
-  percy:
-    name: Percy
-    runs-on: macOS-latest
-    needs: [jest, lint, prettier, html-validate, puppeteer]
-    if: contains(github.event.pull_request.labels.*.name, 'Ready for Review')
-    steps:
-      - name: Git Checkout
-        uses: actions/checkout@v1
-        with:
-          fetch-depth: 1
-      - name: Setup Node
-        uses: actions/setup-node@v1.1.2
-        with:
-          node-version: 11.x
-      - name: Install Yarn with NPM
-        run: npm install yarn -g
-      - name: Yarn Install
-        run: yarn install
-      - name: Percy
-        run: yarn test:e2e:percy
-        env:
-          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
-          PERCY_BRANCH: ${{ github.head_ref }}
+  # jest:
+  #   name: Jest
+  #   runs-on: ubuntu-latest
+  #   if: github.event.action == 'opened' || github.event.action == 'synchronize'
+  #   steps:
+  #     - uses: actions/checkout@v1
+  #     - uses: actions/setup-node@v1.1.2
+  #       with:
+  #         node-version: 11.x
+  #     - run: npm install yarn -g
+  #     - run: yarn install
+  #     - run: yarn test:unit
+  #     - run: yarn test:coverage
+  #
+  # puppeteer:
+  #   name: Puppeteer
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Git Checkout
+  #       uses: actions/checkout@v1
+  #       with:
+  #         fetch-depth: 1
+  #     - name: Setup Node
+  #       uses: actions/setup-node@v1.1.2
+  #       with:
+  #         node-version: 11.x
+  #     - name: Install Yarn with NPM
+  #       run: npm install yarn -g
+  #     - name: Yarn Install
+  #       run: yarn install
+  #     - name: Jest Screenshot
+  #       run: yarn test:e2e:ci
+  #
+  # percy:
+  #   name: Percy
+  #   runs-on: macOS-latest
+  #   needs: [jest, lint, prettier, html-validate, puppeteer]
+  #   if: contains(github.event.pull_request.labels.*.name, 'Ready for Review')
+  #   steps:
+  #     - name: Git Checkout
+  #       uses: actions/checkout@v1
+  #       with:
+  #         fetch-depth: 1
+  #     - name: Setup Node
+  #       uses: actions/setup-node@v1.1.2
+  #       with:
+  #         node-version: 11.x
+  #     - name: Install Yarn with NPM
+  #       run: npm install yarn -g
+  #     - name: Yarn Install
+  #       run: yarn install
+  #     - name: Percy
+  #       run: yarn test:e2e:percy
+  #       env:
+  #         PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
+  #         PERCY_BRANCH: ${{ github.head_ref }}
