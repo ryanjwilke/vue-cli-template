@@ -12,7 +12,7 @@
     "deprecated": "error",
     "doctype-html": "error",
     "element-name": "off",
-    "element-case": "error",
+    "element-case": "off",
     "element-required-attributes": "error",
     "empty-heading": "error",
     "long-title": "error",
