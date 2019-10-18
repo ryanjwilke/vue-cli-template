@@ -11,7 +11,8 @@
     "test:vue": "NODE_ENV=test vue-cli-service html-validate --config .github/.vue-validate.json --max-warnings 0",
     "test:html": "NODE_ENV=test vue-cli-service html-validate --config .github/.html-validate.json --max-warnings 0 --ext html ./dist",
     "vue:serve": "yarn vue:start --open",
-    "vue:start": "vue-cli-service serve"
+    "vue:start": "vue-cli-service serve",
+    "git:pull:template": "git pull template master --allow-unrelated-histories"
   },
   "dependencies": {
     "core-js": "^3.1.2",
