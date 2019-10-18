@@ -7,6 +7,9 @@
     "test:lint": "NODE_ENV=test vue-cli-service lint --max-warnings 0",
     "test:html": "NODE_ENV=test node_modules/.bin/html-validate --config .github/.html-validate.json --max-warnings 0 --ext html ./dist",
     "test:vue": "NODE_ENV=test vue-cli-service html-validate --config .github/.vue-validate.json --max-warnings 0",
+    "prettier": "node_modules/.bin/prettier 'src/**/*.{js,json,yml,yaml,md}'",
+    "prettier:check": "yarn prettier --check",
+    "prettier:write": "yarn prettier --write",
     "vue:start": "vue-cli-service serve",
     "vue:serve": "yarn vue:start --open"
   },
@@ -77,7 +80,7 @@
   },
   "lint-staged": {
     "*.{js,json,yml,yaml,md}": [
-      "prettier --write",
+      "yarn prettier --write",
       "git add"
     ],
     "*.js": [
