@@ -3,21 +3,39 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "prettier": "node_modules/.bin/prettier 'src/**/*.{js,json,yml,yaml,md}'",
+    "prettier:check": "yarn prettier --check",
+    "prettier:write": "yarn prettier --write",
+    "test:lint": "NODE_ENV=test vue-cli-service lint --max-warnings 0",
+    "test:vue": "NODE_ENV=test vue-cli-service html-validate --config .github/.vue-validate.json --max-warnings 0",
+    "test:html": "NODE_ENV=test vue-cli-service html-validate --config .github/.html-validate.json --max-warnings 0 --ext html ./dist",
+    "vue:serve": "yarn vue:start --open",
+    "vue:start": "vue-cli-service serve"
   },
   "dependencies": {
     "core-js": "^3.1.2",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.6"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.0.0",
-    "@vue/cli-plugin-eslint": "^4.0.0",
-    "@vue/cli-service": "^4.0.0",
-    "babel-eslint": "^10.0.1",
+    "@percy/puppeteer": "^1.0.8",
+    "@vue/cli-plugin-babel": "^4.0.4",
+    "@vue/cli-plugin-eslint": "^4.0.4",
+    "@vue/cli-plugin-router": "^4.0.4",
+    "@vue/cli-plugin-unit-jest": "^4.0.4",
+    "@vue/cli-service": "^4.0.4",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "html-validate": "^1",
+    "html-validate-vue": "^1",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.2",
+    "prettier": "^1.18.2",
+    "puppeteer": "^1.20.0",
+    "vue-cli-plugin-html-validate": "^1.1.0",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
@@ -29,10 +47,25 @@
       "plugin:vue/essential",
       "eslint:recommended"
     ],
-    "rules": {},
+    "rules": {
+      "no-undef": "warn",
+      "no-console": "warn",
+      "no-unused-vars": "warn",
+      "no-constant-condition": "warn"
+    },
     "parserOptions": {
       "parser": "babel-eslint"
-    }
+    },
+    "overrides": [
+      {
+        "files": [
+          "**/__tests__/*.{j,t}s?(x)"
+        ],
+        "env": {
+          "jest": true
+        }
+      }
+    ]
   },
   "postcss": {
     "plugins": {
@@ -42,5 +75,20 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,yml,yaml,md}": [
+      "yarn prettier --write",
+      "git add"
+    ],
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
 }

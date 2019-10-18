@@ -1,0 +1,35 @@
+{
+  "extends": ["htmlvalidate:recommended"],
+  "elements": ["html5", "html-validate-vue/elements"],
+  "transform": {
+    "^.*\\.vue$": "html-validate-vue"
+  },
+  "rules": {
+    "attr-case": "error",
+    "attribute-boolean-style": "error",
+    "close-attr": "error",
+    "close-order": "error",
+    "deprecated": "error",
+    "doctype-html": "error",
+    "element-name": "off",
+    "element-case": "off",
+    "element-required-attributes": "error",
+    "empty-heading": "error",
+    "long-title": "error",
+    "meta-refresh": "error",
+    "missing-doctype": "off",
+    "no-conditional-comment": "error",
+    "no-deprecated-attr": "error",
+    "no-dup-attr": "error",
+    "no-dup-class": "error",
+    "no-dup-id": "error",
+    "no-raw-characters": "error",
+    "prefer-button": "error",
+    "prefer-tbody": "error",
+    "svg-focusable": "error",
+    "unrecognized-char-ref": "error",
+    "wcag/h30": "error",
+    "wcag/h32": "warn",
+    "void": ["error", { "style": "selfclose" }]
+  }
+}
