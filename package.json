@@ -4,14 +4,14 @@
   "private": true,
   "scripts": {
     "build": "vue-cli-service build",
-    "test:lint": "NODE_ENV=test vue-cli-service lint --max-warnings 0",
-    "test:html": "NODE_ENV=test node_modules/.bin/html-validate --config .github/.html-validate.json --max-warnings 0 --ext html ./dist",
-    "test:vue": "NODE_ENV=test vue-cli-service html-validate --config .github/.vue-validate.json --max-warnings 0",
     "prettier": "node_modules/.bin/prettier 'src/**/*.{js,json,yml,yaml,md}'",
     "prettier:check": "yarn prettier --check",
     "prettier:write": "yarn prettier --write",
-    "vue:start": "vue-cli-service serve",
-    "vue:serve": "yarn vue:start --open"
+    "test:lint": "NODE_ENV=test vue-cli-service lint --max-warnings 0",
+    "test:vue": "NODE_ENV=test vue-cli-service html-validate --config .github/.vue-validate.json --max-warnings 0",
+    "test:html": "NODE_ENV=test vue-cli-service html-validate --config .github/.html-validate.json --max-warnings 0 --ext html ./dist",
+    "vue:serve": "yarn vue:start --open",
+    "vue:start": "vue-cli-service serve"
   },
   "dependencies": {
     "core-js": "^3.1.2",
@@ -29,10 +29,13 @@
     "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "html-validate": "^1",
+    "html-validate-vue": "^1",
     "husky": "^3.0.9",
     "lint-staged": "^9.4.2",
     "prettier": "^1.18.2",
     "puppeteer": "^1.20.0",
+    "vue-cli-plugin-html-validate": "^1.1.0",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
