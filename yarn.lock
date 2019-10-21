@@ -5205,9 +5205,9 @@ html-validate-vue@^1:
   integrity sha512-eNGa9oQ1GYszEs9ZFNFU8s/c2UpBCcD/kYERlOA/gYjviTpDYUe7KNW5Y7/uaE1hPcha0zjKVSZsp8/JJGun6w==
 
 html-validate@^1:
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/html-validate/-/html-validate-1.13.0.tgz#b9c57fb400677460889e7f3c603ac99968635e45"
-  integrity sha512-nrF2nHdmS67fTuQa4xziz/9o5+cXxtTX1kafOwMNGVqOazsG0OlDQP1jSbzoAIUHRur08z/iP5ZC/ZaF32FocQ==
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/html-validate/-/html-validate-1.14.0.tgz#d3d156230a01afc1dc3f1763fd8ad0a6c45690b6"
+  integrity sha512-vICmIT4sCrvsPLjvuYYW9Uop1F8EtprrgxFC8Atm7CeFZGmaWEWhouvgun4R15gc8qHgbZ2Ds36c+Zgcel89tQ==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     acorn-walk "^7.0.0"
