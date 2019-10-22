@@ -1318,12 +1318,12 @@
     webpack "^4.0.0"
     yorkie "^2.0.0"
 
-"@vue/cli-plugin-router@^4.0.4":
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-router/-/cli-plugin-router-4.0.4.tgz#e1010d3844519baad517f6050541711f6157942a"
-  integrity sha512-hwHyT1pOqtIAX3qMsfJdFJcOY2k44hqZZektqGujaNdudMUC2u+aEnoYiBwsE97MkGE0Jso6CdOTA9QAzUryww==
+"@vue/cli-plugin-router@^4.0.4", "@vue/cli-plugin-router@^4.0.5":
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-router/-/cli-plugin-router-4.0.5.tgz#2891520a6293bbd6d7784fa14e1041a41ba6d4fd"
+  integrity sha512-pSbw7CZZd6fQHomwIsxX/qyMBFeXsxhUOrwjmp1s03qe/VjsyREIsLW+L5BiXoHZQFdqfH2NaOF9Uivxiv2cvQ==
   dependencies:
-    "@vue/cli-shared-utils" "^4.0.4"
+    "@vue/cli-shared-utils" "^4.0.5"
 
 "@vue/cli-plugin-unit-jest@^4.0.4":
   version "4.0.4"
@@ -1432,10 +1432,10 @@
     semver "^6.0.0"
     string.prototype.padstart "^3.0.0"
 
-"@vue/cli-shared-utils@^4.0.4":
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/@vue/cli-shared-utils/-/cli-shared-utils-4.0.4.tgz#ef94325c3954eaac60ca4af9a6de355131ae6e3f"
-  integrity sha512-f8a9MxZJ89zw783gk2yjG6wPu5IHnmrH8whc1jMJhWNKxRTgCkUxevPVQIobiWy1UtMBdDXXOLxd4PRNK9nyxQ==
+"@vue/cli-shared-utils@^4.0.4", "@vue/cli-shared-utils@^4.0.5":
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/@vue/cli-shared-utils/-/cli-shared-utils-4.0.5.tgz#dd263fa3b3a75c11cdc64376d4c45470fba6b270"
+  integrity sha512-NlNZ4Dx5QcP5uO5fCOLgkN2tbhNan5EcptPvXawW/md18cIpMlKbph6L6lEfJj8vrSvTUf2i/FyoFSh1rV53hw==
   dependencies:
     "@hapi/joi" "^15.0.1"
     chalk "^2.4.1"
