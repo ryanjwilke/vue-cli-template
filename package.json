@@ -16,7 +16,7 @@
     "git:pull:template": "git fetch --all && git pull template master --allow-unrelated-histories"
   },
   "dependencies": {
-    "core-js": "^3.3.3",
+    "core-js": "^3.3.4",
     "vue": "^2.6.10",
     "vue-router": "^3.0.6"
   },
