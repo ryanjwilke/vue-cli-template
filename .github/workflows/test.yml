@@ -49,19 +49,20 @@ jobs:
       - run: yarn build
       - run: yarn test:vue
       - run: yarn test:html
-  # jest:
-  #   name: Jest
-  #   runs-on: ubuntu-latest
-  #   if: github.event.action == 'opened' || github.event.action == 'synchronize'
-  #   steps:
-  #     - uses: actions/checkout@v1
-  #     - uses: actions/setup-node@v1.1.2
-  #       with:
-  #         node-version: 11.x
-  #     - run: npm install yarn -g
-  #     - run: yarn install
-  #     - run: yarn test:unit
-  #     - run: yarn test:coverage
+
+  jest:
+    name: Jest
+    runs-on: ubuntu-latest
+    if: github.event.action == 'opened' || github.event.action == 'synchronize'
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1.1.2
+        with:
+          node-version: 11.x
+      - run: npm install yarn -g
+      - run: yarn install
+      - run: yarn test:unit
+      - run: yarn test:coverage
   #
   # puppeteer:
   #   name: Puppeteer
