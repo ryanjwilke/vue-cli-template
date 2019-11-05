@@ -12,6 +12,7 @@ yarn git:init
 ```
 
 ### Pull updates from the upstream template repository.
+
 ```
 yarn git:pull:template
 ```
@@ -28,11 +29,27 @@ yarn vue:serve
 yarn build
 ```
 
-### Lints and fixes files
+### ESLint Commands
 
-```
-yarn lint
-```
+- `yarn test:lint`
+
+### HTML Validate Commands
+
+- `yarn test:vue`
+- `yarn test:html`
+
+### Jest Commands
+
+- `yarn test:unit`
+- `yarn test:unit:ci`
+- `yarn test:unit:update`
+- `yarn test:unit:coverage`
+
+### Prettier Commands
+
+- `yarn prettier`
+- `yarn prettier:check`
+- `yarn prettier:write`
 
 ### Customize configuration
 
