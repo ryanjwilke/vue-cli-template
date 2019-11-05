@@ -68,9 +68,7 @@ jobs:
         uses: actions/cache@v1
         with:
           path: node_modules
-          key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
+          key: jest-${{ hashFiles('**/yarn.lock') }}
       - name: Install Yarn
         run: npm install yarn -g
       - name: Install Node Modules
