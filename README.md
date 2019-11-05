@@ -29,15 +29,27 @@ yarn vue:serve
 yarn build
 ```
 
-### Test Commands
+### ESLint Commands
 
 - `yarn test:lint`
+
+### HTML Validate Commands
+
+- `yarn test:vue`
+- `yarn test:html`
+
+### Jest Commands
+
 - `yarn test:unit`
+- `yarn test:unit:ci`
 - `yarn test:unit:update`
-- Prettier
-  -- `yarn prettier`
-  -- `yarn prettier:check`
-  -- `yarn prettier:write`
+- `yarn test:unit:coverage`
+
+### Prettier Commands
+
+- `yarn prettier`
+- `yarn prettier:check`
+- `yarn prettier:write`
 
 ### Customize configuration
 
