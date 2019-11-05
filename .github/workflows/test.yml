@@ -109,7 +109,7 @@ jobs:
       - name: Install Node Modules with Yarn
         if: steps.cache.outputs.cache-hit != 'true'
         run: yarn install
-      - run: yarn test:unit
+      - run: yarn test:unit:ci
       - run: yarn test:unit:coverage
   #
   # puppeteer:

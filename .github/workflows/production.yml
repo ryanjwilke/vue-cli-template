@@ -57,8 +57,8 @@ jobs:
           node-version: 11.x
       - run: npm install yarn -g
       - run: yarn install
-      - run: yarn test:unit
-      - run: yarn test:coverage
+      - run: yarn test:unit:ci
+      - run: yarn test:unit:coverage
   # puppeteer:
   #   name: Puppeteer
   #   runs-on: ubuntu-latest
