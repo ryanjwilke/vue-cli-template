@@ -44,8 +44,17 @@ jobs:
         uses: actions/setup-node@v1.1.2
         with:
           node-version: 11.x
-      - run: npm install yarn -g
-      - run: yarn install
+      - name: Cache Node Modules
+        id: cache
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: node-${{ hashFiles('**/yarn.lock') }}
+      - name: Install Yarn
+        run: npm install yarn -g
+      - name: Install Node Modules with Yarn
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: yarn install
       - run: yarn build
       - run: yarn test:vue
       - run: yarn test:html
@@ -68,10 +77,10 @@ jobs:
         uses: actions/cache@v1
         with:
           path: node_modules
-          key: jest-${{ hashFiles('**/yarn.lock') }}
+          key: node-${{ hashFiles('**/yarn.lock') }}
       - name: Install Yarn
         run: npm install yarn -g
-      - name: Install Node Modules
+      - name: Install Node Modules with Yarn
         if: steps.cache.outputs.cache-hit != 'true'
         run: yarn install
       - run: yarn test:unit
