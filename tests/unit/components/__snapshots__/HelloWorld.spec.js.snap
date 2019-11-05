@@ -5,7 +5,7 @@ exports[`HelloWorld renders correctly 1`] = `
   class="hello"
 >
   <h1>
-    
+    Hello World
   </h1>
    
   <p>
