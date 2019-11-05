@@ -64,14 +64,18 @@ jobs:
         with:
           node-version: 11.x
       - name: Cache Node Modules
+        id: cache
         uses: actions/cache@v1
         with:
           path: node_modules
           key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-node-
-      - run: npm install yarn -g
-      - run: yarn install
+      - name: Install Yarn
+        run: npm install yarn -g
+      - name: Install Node Modules
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: yarn install
       - run: yarn test:unit
       - run: yarn test:coverage
   #
