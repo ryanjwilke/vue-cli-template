@@ -17,7 +17,9 @@
     "vue:serve": "yarn vue:start --open",
     "vue:start": "vue-cli-service serve",
     "git:init": "git remote add template git@github.com:ryanjwilke/vue-cli-template.git",
-    "git:diff:template": "git remote update && git diff master remotes/template/master",
+    "git:diff:template": "git remote update && git diff master..remotes/template/master",
+    "git:diff:template:ignore": "yarn git:diff:template -- . ':!tests' ':!src' ':!public'",
+    "git:diff:template:compact": "yarn git:diff:template --compact-summary",
     "git:pull:template": "git fetch --all && git pull template master --allow-unrelated-histories"
   },
   "dependencies": {
