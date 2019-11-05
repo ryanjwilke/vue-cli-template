@@ -13,6 +13,7 @@
     "test:unit": "NODE_ENV=test vue-cli-service test:unit --reporters default --no-cache --verbose",
     "test:unit:ci": "yarn test:unit --ci",
     "test:unit:update": "yarn test:unit --updateSnapshot",
+    "test:unit:coverage": "NODE_ENV=test vue-cli-service test:unit --no-cache --coverage --silent --ci",
     "vue:serve": "yarn vue:start --open",
     "vue:start": "vue-cli-service serve",
     "git:init": "git remote add template git@github.com:ryanjwilke/vue-cli-template.git",
