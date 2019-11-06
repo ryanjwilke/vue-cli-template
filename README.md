@@ -54,3 +54,16 @@ yarn build
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Tools in Use
+
+- [Vue CLI](https://cli.vuejs.org/)
+- [Vue Test Utils](https://vue-test-utils.vuejs.org/)
+- [Jest](https://jestjs.io/)
+- [Jest Screenshot](https://github.com/Prior99/jest-screenshot)
+- [Puppeteer](https://github.com/GoogleChrome/puppeteer)
+- [Webpack](https://webpack.js.org/)
+- [Netlify](https://app.netlify.com/sites/ryanwilke/overview)
+- [Percy](https://percy.io/ryanwilke/)
+- [Percy-Puppeteer](https://github.com/percy/percy-puppeteer)
+- [Segment](https://app.segment.com/ryanwilke/home)
