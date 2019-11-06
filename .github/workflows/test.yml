@@ -29,5 +29,5 @@ jobs:
       - run: yarn test:html
       - run: yarn test:unit:ci
       - run: yarn test:unit:coverage
-      - run: git remote set-url template git@github.com:ryanjwilke/vue-cli-template.git
+      - run: git remote set-url origin git@github.com:ryanjwilke/vue-cli-template.git
       - run: yarn git:init && yarn git:diff:template:compact
