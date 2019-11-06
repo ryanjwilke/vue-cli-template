@@ -20,7 +20,7 @@ jobs:
           node-version: 11.x
       - name: Cache Node Modules
         id: cache
-        uses: actions/cache@v1
+        uses: actions/cache@v1.0.1
         with:
           path: node_modules
           key: node-${{ hashFiles('**/yarn.lock') }}
@@ -46,7 +46,7 @@ jobs:
           node-version: 11.x
       - name: Cache Node Modules
         id: cache
-        uses: actions/cache@v1
+        uses: actions/cache@v1.0.1
         with:
           path: node_modules
           key: node-${{ hashFiles('**/yarn.lock') }}
@@ -73,7 +73,7 @@ jobs:
           node-version: 11.x
       - name: Cache Node Modules
         id: cache
-        uses: actions/cache@v1
+        uses: actions/cache@v1.0.1
         with:
           path: node_modules
           key: node-${{ hashFiles('**/yarn.lock') }}
@@ -100,7 +100,7 @@ jobs:
           node-version: 11.x
       - name: Cache Node Modules
         id: cache
-        uses: actions/cache@v1
+        uses: actions/cache@v1.0.1
         with:
           path: node_modules
           key: node-${{ hashFiles('**/yarn.lock') }}
@@ -129,7 +129,7 @@ jobs:
           node-version: 11.x
       - name: Cache Node Modules
         id: cache
-        uses: actions/cache@v1
+        uses: actions/cache@v1.0.1
         with:
           path: node_modules
           key: node-${{ hashFiles('**/yarn.lock') }}
