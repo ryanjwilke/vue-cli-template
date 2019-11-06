@@ -24,8 +24,10 @@
   },
   "dependencies": {
     "core-js": "^3.3.6",
+    "js-yaml-loader": "^1.2.2",
     "vue": "^2.6.10",
-    "vue-router": "^3.0.6"
+    "vue-router": "^3.0.6",
+    "yaml-jest": "^1.0.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.0.5",
@@ -113,6 +115,7 @@
     ],
     "transform": {
       "^.+\\.vue$": "vue-jest",
+      "^.+\\.yml$": "yaml-jest",
       ".+\\.(css|styl|less|sass|scss|svg|png|jpg|ttf|woff|woff2)$": "jest-transform-stub",
       "^.+\\.jsx?$": "babel-jest"
     },
