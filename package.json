@@ -26,8 +26,7 @@
     "core-js": "^3.3.6",
     "js-yaml-loader": "^1.2.2",
     "vue": "^2.6.10",
-    "vue-router": "^3.0.6",
-    "yaml-jest": "^1.0.5"
+    "vue-router": "^3.0.6"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.0.5",
@@ -46,7 +45,8 @@
     "prettier": "^1.18.2",
     "puppeteer": "^1.5.0",
     "vue-cli-plugin-html-validate": "^1.1.0",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "yaml-jest": "^1.0.5"
   },
   "eslintConfig": {
     "root": true,
