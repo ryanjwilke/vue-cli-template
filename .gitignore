@@ -1,6 +1,8 @@
 .DS_Store
+package-lock.json
 node_modules
 /dist
+/lambda-server
 
 # local env files
 .env.local
@@ -8,6 +10,10 @@ node_modules
 
 # Log files
 *.log*
+
+# Jest
+__coverage__
+__report__
 
 # Editor directories and files
 .idea
@@ -17,3 +23,6 @@ node_modules
 *.njsproj
 *.sln
 *.sw?
+
+# Netlify CLI
+.netlify/config.json
