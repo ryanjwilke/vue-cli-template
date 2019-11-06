@@ -1,0 +1,9 @@
+version: 1
+snapshot:
+  widths: [375, 768, 1280]
+  min-height: 1024
+agent:
+  asset-discovery:
+    network-idle-timeout: 10000 # ms
+    page-pool-size-min: 5 # pages
+    page-pool-size-max: 20 # pages
