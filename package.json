@@ -20,7 +20,9 @@
     "test:e2e:update": "yarn test:e2e --updateSnapshot",
     "vue:start": "vue-cli-service serve",
     "vue:serve": "yarn vue:start --open",
-    "git:init": "git remote add template git@github.com:ryanjwilke/vue-cli-template.git",
+    "git:init": "yarn git:init:origin && yarn git:init:template",
+    "git:init:origin": "git remote set-url origin git@github.com:ryanjwilke/vue-cli-template.git",
+    "git:init:template": "git remote add template git@github.com:ryanjwilke/vue-cli-template.git",
     "git:diff:template": "git remote update && git diff remotes/template/master",
     "git:diff:template:compact": "yarn git:diff:template --compact-summary . ':!*.svg' ':!*.spec.js*' ':!*.vue' ':!*.css.yml' ':!*.snap*' ':!*.lock' ':!src' ':!public' ':!tests/data'",
     "git:pull:template": "git fetch --all && git pull template master --allow-unrelated-histories"
