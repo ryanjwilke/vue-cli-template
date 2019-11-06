@@ -5,139 +5,28 @@ on:
     types: [opened, synchronize, labeled, ready_for_review]
 
 jobs:
-  node-cache:
-    name: Node Modules Cache
+  ci:
+    name: CI Testing
     runs-on: ubuntu-latest
-    if: github.event.action == 'opened' || github.event.action == 'synchronize'
     steps:
-      - name: Git Checkout
-        uses: actions/checkout@v1
+      - uses: actions/checkout@v1
         with:
           fetch-depth: 1
-      - name: Setup Node
-        uses: actions/setup-node@v1.1.2
+      - uses: actions/setup-node@v1.1.2
         with:
           node-version: 11.x
-      - name: Cache Node Modules
+      - uses: actions/cache@v1.0.1
         id: cache
-        uses: actions/cache@v1.0.1
         with:
           path: node_modules
           key: node-${{ hashFiles('**/yarn.lock') }}
-      - name: Install Yarn
-        run: npm install yarn -g
-      - name: Install Node Modules with Yarn
+      - run: npm install yarn -g
+      - run: yarn install
         if: steps.cache.outputs.cache-hit != 'true'
-        run: yarn install
-
-  lint:
-    name: ESLint
-    runs-on: ubuntu-latest
-    needs: node-cache
-    if: github.event.action == 'opened' || github.event.action == 'synchronize'
-    steps:
-      - name: Git Checkout
-        uses: actions/checkout@v1
-        with:
-          fetch-depth: 1
-      - name: Setup Node
-        uses: actions/setup-node@v1.1.2
-        with:
-          node-version: 11.x
-      - name: Cache Node Modules
-        id: cache
-        uses: actions/cache@v1.0.1
-        with:
-          path: node_modules
-          key: node-${{ hashFiles('**/yarn.lock') }}
-      - name: Install Yarn
-        run: npm install yarn -g
-      - name: Install Node Modules with Yarn
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: yarn install
-      - run: yarn test:lint
-
-  prettier:
-    name: Prettier
-    runs-on: ubuntu-latest
-    needs: node-cache
-    if: github.event.action == 'opened' || github.event.action == 'synchronize'
-    steps:
-      - name: Git Checkout
-        uses: actions/checkout@v1
-        with:
-          fetch-depth: 1
-      - name: Setup Node
-        uses: actions/setup-node@v1.1.2
-        with:
-          node-version: 11.x
-      - name: Cache Node Modules
-        id: cache
-        uses: actions/cache@v1.0.1
-        with:
-          path: node_modules
-          key: node-${{ hashFiles('**/yarn.lock') }}
-      - name: Install Yarn
-        run: npm install yarn -g
-      - name: Install Node Modules with Yarn
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: yarn install
       - run: yarn prettier:check
-
-  html-validate:
-    name: HTML-Validate
-    runs-on: ubuntu-latest
-    needs: node-cache
-    if: github.event.action == 'opened' || github.event.action == 'synchronize'
-    steps:
-      - name: Git Checkout
-        uses: actions/checkout@v1
-        with:
-          fetch-depth: 1
-      - name: Setup Node
-        uses: actions/setup-node@v1.1.2
-        with:
-          node-version: 11.x
-      - name: Cache Node Modules
-        id: cache
-        uses: actions/cache@v1.0.1
-        with:
-          path: node_modules
-          key: node-${{ hashFiles('**/yarn.lock') }}
-      - name: Install Yarn
-        run: npm install yarn -g
-      - name: Install Node Modules with Yarn
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: yarn install
-      - run: yarn build
+      - run: yarn test:lint
       - run: yarn test:vue
       - run: yarn test:html
-
-  jest:
-    name: Jest
-    runs-on: ubuntu-latest
-    needs: node-cache
-    if: github.event.action == 'opened' || github.event.action == 'synchronize'
-    steps:
-      - name: Git Checkout
-        uses: actions/checkout@v1
-        with:
-          fetch-depth: 1
-      - name: Setup Node
-        uses: actions/setup-node@v1.1.2
-        with:
-          node-version: 11.x
-      - name: Cache Node Modules
-        id: cache
-        uses: actions/cache@v1.0.1
-        with:
-          path: node_modules
-          key: node-${{ hashFiles('**/yarn.lock') }}
-      - name: Install Yarn
-        run: npm install yarn -g
-      - name: Install Node Modules with Yarn
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: yarn install
       - run: yarn test:unit:ci
       - run: yarn test:unit:coverage
   #
