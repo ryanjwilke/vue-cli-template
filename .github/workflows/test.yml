@@ -29,4 +29,3 @@ jobs:
       - run: yarn test:html
       - run: yarn test:unit:ci
       - run: yarn test:unit:coverage
-      - run: yarn git:init && yarn git:diff:template:compact
