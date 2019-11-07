@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://vue-cli-template.netlify.com/* https://vue-cli-template.ryanwilke.com/:splat 301!
