@@ -49,14 +49,4 @@ module.exports = {
       .loader('js-yaml-loader')
       .end()
   },
-
-  pluginOptions: {
-    prerenderSpa: {
-      registry: undefined,
-      renderRoutes: ['/', '/about'],
-      useRenderEvent: true,
-      headless: true,
-      onlyProduction: true,
-    },
-  },
 }
