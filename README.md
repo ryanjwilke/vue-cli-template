@@ -3,6 +3,7 @@
 ## Status
 
 [![GitHub Status](https://github.com/ryanjwilke/vue-cli-template/workflows/Production/badge.svg)](https://github.com/ryanjwilke/vue-cli-template/actions)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/45dfe48b-2dfe-4c6e-8186-058ac9a15d7a/deploy-status)](https://app.netlify.com/sites/vue-cli-template/deploys)
 
 ## First-time Setup
 
