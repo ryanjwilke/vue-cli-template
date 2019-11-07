@@ -2,7 +2,7 @@ const path = require('path')
 
 module.exports = {
   configureWebpack: () => {
-    let config = {
+    return {
       resolve: {
         extensions: ['.svg', '.vue', '.js'],
         alias: {
@@ -19,8 +19,6 @@ module.exports = {
         },
       },
     }
-
-    return config
   },
 
   chainWebpack: (config) => {
