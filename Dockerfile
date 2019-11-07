@@ -1,4 +1,4 @@
-FROM node:slim
+FROM node:11.15.0
 
 # Set default locale for the environment
 ENV LC_ALL C.UTF-8
