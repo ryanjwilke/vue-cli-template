@@ -1,0 +1,8 @@
+{
+  "detectAntialiasing": true,
+  "colorThreshold": 0.1,
+  "pixelThresholdRelative": 0.165,
+  "snapshotsDir": "__snapshots__",
+  "reportDir": "tests/e2e/__report__",
+  "noReport": false
+}

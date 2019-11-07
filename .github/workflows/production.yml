@@ -7,13 +7,13 @@ on:
 
 jobs:
   ci:
-    name: CI Testing
+    name: CI Tests
     runs-on: macOS-latest
     steps:
       - uses: actions/checkout@v1
         with:
           fetch-depth: 1
-      - uses: actions/setup-node@v1.1.2
+      - uses: actions/setup-node@v1.2.0
         with:
           node-version: 11.x
       - uses: actions/cache@v1.0.1
@@ -30,3 +30,8 @@ jobs:
       - run: yarn test:html
       - run: yarn test:unit:ci
       - run: yarn test:unit:coverage
+      - run: yarn test:e2e:ci
+      - run: yarn test:e2e:percy
+        env:
+          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
+          PERCY_BRANCH: master
