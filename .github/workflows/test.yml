@@ -29,3 +29,9 @@ jobs:
       - run: yarn test:html
       - run: yarn test:unit:ci
       - run: yarn test:unit:coverage
+      - run: yarn test:e2e:ci
+      - run: yarn test:e2e:percy
+        if: contains(github.event.pull_request.labels.*.name, 'Ready for Review')
+        env:
+          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
+          PERCY_BRANCH: ${{ github.head_ref }}
