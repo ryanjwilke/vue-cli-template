@@ -59,7 +59,7 @@
     "vue-cli-plugin-html-validate": "^1.1.0",
     "vue-cli-plugin-jest-puppeteer": "^0.1.4",
     "vue-cli-plugin-netlify-lambda": "^0.1.1",
-    "vue-svg-loader": "^0.12.0",
+    "vue-svg-loader": "^0.14.0",
     "vue-template-compiler": "^2.6.10",
     "yaml-jest": "^1.0.5"
   },
