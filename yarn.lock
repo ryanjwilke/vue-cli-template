@@ -6478,12 +6478,7 @@ deepmerge@^3.2.0:
   resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-3.3.0.tgz#d3c47fd6f3a93d517b14426b0628a17b0125f5f7"
   integrity sha512-GRQOafGHwMHpjPx9iCvTgpu9NojZ49q794EEL94JVEw6VaeA8XTUyBKvAkOOjBX9oJNiV6G3P+T+tihFjo2TqA==
 
-deepmerge@^4.0.0:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-4.1.1.tgz#ee0866e4019fe62c1276b9062d4c4803d9aea14c"
-  integrity sha512-+qO5WbNBKBaZez95TffdUDnGIo4+r5kmsX8aOb7PDHvXsTbghAmleuxjs6ytNaf5Eg4FGBXDS5vqO61TRi6BMg==
-
-deepmerge@^4.2.2:
+deepmerge@^4.0.0, deepmerge@^4.2.2:
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-4.2.2.tgz#44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955"
   integrity sha512-FJ3UgI4gIl+PHZm53knsuSFpE+nESMr7M4v9QcgB7S63Kj/6WqMiFQJpBBYz1Pt+66bZpP3Q7Lye0Oo9MPKEdg==
@@ -9130,10 +9125,10 @@ html-validate-vue@^1.3.1:
   resolved "https://registry.yarnpkg.com/html-validate-vue/-/html-validate-vue-1.3.1.tgz#b96691143ad9329d64ccb1f1685ac51938d02bef"
   integrity sha512-eNGa9oQ1GYszEs9ZFNFU8s/c2UpBCcD/kYERlOA/gYjviTpDYUe7KNW5Y7/uaE1hPcha0zjKVSZsp8/JJGun6w==
 
-html-validate@^1.13.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/html-validate/-/html-validate-1.15.0.tgz#03011026f4d98f34c7bf68459501b209b18f6f75"
-  integrity sha512-rF9ejy6m7ITwnqIia1VffSl5BOhkhgmKUkNUbYrSFJp0HLJfqkOQjsGfQnsKn6kLxPgKkn9QJkDVlXAOsepiUw==
+html-validate@^1.16.0:
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/html-validate/-/html-validate-1.16.0.tgz#b4ea105aacdfe607eba560219ab9bc19ecf964be"
+  integrity sha512-M5/kgsdQ8Csbx7BdkwPcYCd/q3dMAGBdLnay6ZDwFCPBKx+pOh76sjYzaHHPr3YjmLZB16tbEg3bcXKrQZK2KQ==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     acorn-walk "^7.0.0"
