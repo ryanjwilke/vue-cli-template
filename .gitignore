@@ -2,6 +2,7 @@
 package-lock.json
 node_modules
 /dist
+/lambda
 /lambda-server
 
 # local env files

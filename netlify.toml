@@ -3,6 +3,6 @@
 
 [build]
   command = "yarn build"
-  publish = "dist"
-  functions = "lambda-server"
+  functions = "lambda"
   functionsSource = "src/lambda"
+  publish = "dist"
