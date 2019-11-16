@@ -2,3 +2,4 @@
   command = "yarn build"
   publish = "dist"
   functions = "lambda-server"
+  functionsSource = "src/lambda"

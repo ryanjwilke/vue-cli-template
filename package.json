@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "vue-cli-service build --mode production",
+    "build": "yarn netlify:functions:install && yarn:netlify:functions:build && yarn vue:build",
     "git:diff:template": "git remote update && git diff remotes/template/master",
     "git:diff:template:compact": "yarn git:diff:template --compact-summary . ':!*.svg' ':!*.spec.js*' ':!*.vue' ':!*.css.yml' ':!*.snap*' ':!*.lock' ':!src' ':!public' ':!tests/data'",
     "git:init": "git remote add template git@github.com:ryanjwilke/vue-cli-template.git",
@@ -27,6 +27,7 @@
     "test:unit:coverage": "NODE_ENV=test vue-cli-service test:unit --no-cache --coverage --silent --ci",
     "test:unit:update": "yarn test:unit --updateSnapshot",
     "test:vue": "NODE_ENV=test vue-cli-service html-validate --config .github/.vue-validate.json --max-warnings 0",
+    "vue:build": "vue-cli-service build --mode production",
     "vue:serve": "yarn vue:start --open",
     "vue:start": "vue-cli-service serve"
   },
