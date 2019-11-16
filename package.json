@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "yarn netlify:functions:install && yarn:netlify:functions:build && yarn vue:build",
+    "build": "yarn netlify:functions:install && yarn netlify:functions:build && yarn vue:build",
     "git:diff:template": "git remote update && git diff remotes/template/master",
     "git:diff:template:compact": "yarn git:diff:template --compact-summary . ':!*.svg' ':!*.spec.js*' ':!*.vue' ':!*.css.yml' ':!*.snap*' ':!*.lock' ':!src' ':!public' ':!tests/data'",
     "git:init": "git remote add template git@github.com:ryanjwilke/vue-cli-template.git",
