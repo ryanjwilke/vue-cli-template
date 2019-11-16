@@ -26,3 +26,6 @@ __report__
 
 # Netlify CLI
 .netlify/config.json
+
+# Local Netlify folder
+.netlify
