@@ -122,10 +122,10 @@
     ],
     "coverageThreshold": {
       "global": {
+        "statements": 6,
         "branches": 100,
         "functions": 0,
-        "lines": 10,
-        "statements": 10
+        "lines": 6
       }
     },
     "moduleFileExtensions": [
