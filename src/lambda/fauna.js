@@ -1,10 +1,10 @@
-const faunadb = require('faunadb')
-const q = faunadb.query
-const client = new faunadb.Client({
-  secret: process.env.FAUNA_DB_KEY,
-})
+import faunadb, { query as q } from 'faunadb'
 
 export function handler(event, context, callback) {
+  const client = new faunadb.Client({
+    secret: process.env.FAUNA_DB_KEY,
+  })
+
   client
     .query(q.Paginate(q.Match(q.Index('all_customers'))))
     .then((response) => {
