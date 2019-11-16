@@ -1,11 +1,57 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`About renders correctly 1`] = `
+exports[`About renders correctly with placeholder data 1`] = `
 <div
   class="about"
 >
   <h1>
     This is an about page
   </h1>
+   
+  <hr />
+   
+  <h2>
+    Hello World Function
+  </h2>
+   
+  <p>
+    Placeholder
+  </p>
+   
+  <h2>
+    FaunaDB Function
+  </h2>
+   
+  <p>
+    Placeholder
+  </p>
+</div>
+`;
+
+exports[`About renders correctly with synca data 1`] = `
+<div
+  class="about"
+>
+  <h1>
+    This is an about page
+  </h1>
+   
+  <hr />
+   
+  <h2>
+    Hello World Function
+  </h2>
+   
+  <p>
+    Placeholder
+  </p>
+   
+  <h2>
+    FaunaDB Function
+  </h2>
+   
+  <p>
+    Placeholder
+  </p>
 </div>
 `;

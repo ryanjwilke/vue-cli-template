@@ -8,7 +8,11 @@ describe('About', () => {
     expect(wrapper.isVueInstance()).toBeTruthy()
   })
 
-  it('renders correctly', () => {
+  it('renders correctly with placeholder data', () => {
+    expect(wrapper.element).toMatchSnapshot()
+  })
+
+  it.skip('renders correctly with synca data', async () => {
     expect(wrapper.element).toMatchSnapshot()
   })
 })

@@ -7,9 +7,6 @@
     <h2>Hello World Function</h2>
     <p>{{ helloWorld }}</p>
 
-    <h2>Hello World Async Function</h2>
-    <p>{{ helloWorldAsync }}</p>
-
     <h2>FaunaDB Function</h2>
     <p>{{ fauna }}</p>
   </div>
@@ -26,11 +23,6 @@
         .catch(() => { this.helloWorld = 'An error occurred.' })
 
       axios
-        .get('/.netlify/functions/hello-async')
-        .then((resp) => { this.helloWorldAsync = resp.data.msg })
-        .catch(() => { this.helloWorldAsync = 'An error occurred.' })
-
-      axios
         .get('/.netlify/functions/fauna')
         .then((resp) => { this.fauna = JSON.stringify(resp.data) })
         .catch(() => { this.fauna = 'An error occurred.' })
@@ -39,7 +31,6 @@
       return {
         fauna: 'Placeholder',
         helloWorld: 'Placeholder',
-        helloWorldAsync: 'Placeholder',
       }
     }
   }
