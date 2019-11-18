@@ -9064,10 +9064,10 @@ html-tags@^2.0.0:
   resolved "https://registry.yarnpkg.com/html-tags/-/html-tags-2.0.0.tgz#10b30a386085f43cede353cc8fa7cb0deeea668b"
   integrity sha1-ELMKOGCF9Dzt41PMj6fLDe7qZos=
 
-html-validate-vue@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/html-validate-vue/-/html-validate-vue-1.3.1.tgz#b96691143ad9329d64ccb1f1685ac51938d02bef"
-  integrity sha512-eNGa9oQ1GYszEs9ZFNFU8s/c2UpBCcD/kYERlOA/gYjviTpDYUe7KNW5Y7/uaE1hPcha0zjKVSZsp8/JJGun6w==
+html-validate-vue@^1.3.2:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/html-validate-vue/-/html-validate-vue-1.3.2.tgz#c316b18affc4b180ef2432e1cf1317cc0cdf33df"
+  integrity sha512-a2z2Tnvx+1676uabi+rJDsq6xOGVOYOB8/ZdqkZkGJxDzIqiVp0JJbos80MUZZSL2fB/ClFmME7lzui3NDyS6A==
 
 html-validate@^1.16.0:
   version "1.16.0"
