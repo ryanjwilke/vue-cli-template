@@ -1,7 +1,8 @@
 {
   "name": "vue-cli-template",
   "version": "0.1.0",
-  "private": true,
+  "license": "MIT",
+  "author": "Ryan Wilke",
   "scripts": {
     "build": "vue-cli-service build --mode production",
     "git:diff:template": "git remote update && git diff remotes/template/master",
@@ -27,6 +28,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.7.0",
+    "@ryanjwilke/feather-css": "https://github.com/ryanjwilke/feather-css",
     "core-js": "^3.4.1",
     "js-yaml-loader": "^1.2.2",
     "vue": "^2.6.10",
