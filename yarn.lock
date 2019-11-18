@@ -9101,14 +9101,14 @@ html-tags@^2.0.0:
   integrity sha1-ELMKOGCF9Dzt41PMj6fLDe7qZos=
 
 html-validate-vue@^1.3.2:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/html-validate-vue/-/html-validate-vue-1.3.2.tgz#c316b18affc4b180ef2432e1cf1317cc0cdf33df"
-  integrity sha512-a2z2Tnvx+1676uabi+rJDsq6xOGVOYOB8/ZdqkZkGJxDzIqiVp0JJbos80MUZZSL2fB/ClFmME7lzui3NDyS6A==
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/html-validate-vue/-/html-validate-vue-1.4.0.tgz#4b7e9383869875f64d6940527bd57967cc796f99"
+  integrity sha512-AhxeWI7THE4JK3zJK+X2eruk7MjNNnFSCSsdw8GrIFt0cy+tmRBJRI5Ueg0J9gx91bihH+j1JOLHh2qq7RGT3w==
 
-html-validate@^1.16.0:
-  version "1.16.0"
-  resolved "https://registry.yarnpkg.com/html-validate/-/html-validate-1.16.0.tgz#b4ea105aacdfe607eba560219ab9bc19ecf964be"
-  integrity sha512-M5/kgsdQ8Csbx7BdkwPcYCd/q3dMAGBdLnay6ZDwFCPBKx+pOh76sjYzaHHPr3YjmLZB16tbEg3bcXKrQZK2KQ==
+html-validate@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/html-validate/-/html-validate-2.0.0.tgz#cc791d70cf5ccbf693d978279990013253da734c"
+  integrity sha512-tv5e0XSrb2hXQIgBlxIqVMd0E5wWpd7FyItL7DUwElqNkpT+I+TVbwY0D4KJnZ8aggSCqZ5+zU0SvrIsKmxMdg==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     acorn-walk "^7.0.0"
