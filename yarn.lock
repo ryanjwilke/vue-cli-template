@@ -1463,10 +1463,10 @@
   resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
   integrity sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=
 
-"@ryanwilke/feather-css@^2.0.9":
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/@ryanwilke/feather-css/-/feather-css-2.0.9.tgz#bc80ca77e3e3ba437fb30ae28afa21967a402d4e"
-  integrity sha512-Smo7tEPexTRvOyW1wC7UH+PtyoMt09X55o3dMeoMraIcR2YJEiFTWADIuGwNGQVEzkp3eTJwOKNC4uQoPfFIig==
+"@ryanwilke/feather-css@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@ryanwilke/feather-css/-/feather-css-2.1.0.tgz#ff513c5537583c34226dba2ac3b250085bed62d1"
+  integrity sha512-sNsIfi02S+zum6wVC5OXdh2e2V/5C70OwOQPNxbjx3SVrN6Olz/pJfI/OBfstM6KZwCygy07AWvixW2Eo3vVWg==
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
