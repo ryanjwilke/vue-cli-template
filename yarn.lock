@@ -1464,9 +1464,9 @@
   integrity sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=
 
 "@ryanwilke/feather-css@^2.0.7":
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/@ryanwilke/feather-css/-/feather-css-2.0.7.tgz#a40bd9254a50582e707b7ae369fac68e0f6d7ab2"
-  integrity sha512-//YigqAlmDeMQYzuG0sksZbyW5PezZZVgpx4L3P5EPRBPTg80pIz8OAcwgpqTA2Py+9/y5483+lc4LJSWi/19Q==
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/@ryanwilke/feather-css/-/feather-css-2.0.9.tgz#bc80ca77e3e3ba437fb30ae28afa21967a402d4e"
+  integrity sha512-Smo7tEPexTRvOyW1wC7UH+PtyoMt09X55o3dMeoMraIcR2YJEiFTWADIuGwNGQVEzkp3eTJwOKNC4uQoPfFIig==
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
