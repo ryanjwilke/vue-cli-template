@@ -9,8 +9,6 @@
 </template>
 
 <style>
-@import "node_modules/@ryanjwilke/feather-css/src/assets/feather.sass"
-
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

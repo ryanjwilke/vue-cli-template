@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.7.0",
-    "@ryanjwilke/feather-css": "ryanjwilke/feather-css",
+    "@ryanwilke/feather-css": "^2.0.7",
     "core-js": "^3.4.1",
     "js-yaml-loader": "^1.2.2",
     "vue": "^2.6.10",
@@ -58,6 +58,8 @@
     "netlify-cli": "^2.21.0",
     "prettier": "^1.19.1",
     "puppeteer": "^2.0.0",
+    "sass": "^1.23.6",
+    "sass-loader": "^8.0.0",
     "vue-cli-plugin-html-validate": "^1.1.0",
     "vue-cli-plugin-jest-puppeteer": "^0.1.4",
     "vue-cli-plugin-netlify-lambda": "^0.1.1",
