@@ -1463,9 +1463,9 @@
   resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
   integrity sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=
 
-"@ryanjwilke/feather-css@https://github.com/ryanjwilke/feather-css":
+"@ryanjwilke/feather-css@ryanjwilke/feather-css":
   version "1.2.0"
-  resolved "https://github.com/ryanjwilke/feather-css#e2b5e4b82eaf9f6a1741528e4766c0583750a78e"
+  resolved "https://codeload.github.com/ryanjwilke/feather-css/tar.gz/12ae5c73acaa03d01d63d31280a3c47a4a335dd3"
   dependencies:
     "@babel/core" "^7.7.0"
     core-js "^3.4.1"

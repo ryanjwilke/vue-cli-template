@@ -1,0 +1,20 @@
+LICENSE*
+*.vue
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.md
+*.snap*
+*.spec*
+*.toml
+*.config.js
+*.lock
+*.ts*
+Dockerfile*
+docker-compose.yml
+
+# Vue CLI Folders
+__snapshots__
+public
+tests

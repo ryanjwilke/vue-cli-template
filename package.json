@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.7.0",
-    "@ryanjwilke/feather-css": "https://github.com/ryanjwilke/feather-css",
+    "@ryanjwilke/feather-css": "ryanjwilke/feather-css",
     "core-js": "^3.4.1",
     "js-yaml-loader": "^1.2.2",
     "vue": "^2.6.10",
