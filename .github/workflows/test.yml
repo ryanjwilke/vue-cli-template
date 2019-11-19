@@ -20,9 +20,14 @@ jobs:
         with:
           path: node_modules
           key: node-${{ hashFiles('**/yarn.lock') }}
+      - uses: actions/cache@v1.0.1
+        id: yarn-autoclean
+        with:
+          path: .yarnclean
+          key: yarnclean-${{ hashFiles('**/.yarnclean') }}
       - run: npm install yarn -g
       - run: yarn install
-        if: steps.cache.outputs.cache-hit != 'true'
+        if: steps.cache.outputs.cache-hit != 'true' || steps.yarnclean.outputs.cache-hit != 'true'
       - run: yarn build
       - run: yarn prettier:check
       - run: yarn test:lint
