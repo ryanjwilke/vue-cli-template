@@ -1463,7 +1463,7 @@
   resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
   integrity sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=
 
-"@ryanwilke/feather-css@^2.0.7":
+"@ryanwilke/feather-css@^2.0.9":
   version "2.0.9"
   resolved "https://registry.yarnpkg.com/@ryanwilke/feather-css/-/feather-css-2.0.9.tgz#bc80ca77e3e3ba437fb30ae28afa21967a402d4e"
   integrity sha512-Smo7tEPexTRvOyW1wC7UH+PtyoMt09X55o3dMeoMraIcR2YJEiFTWADIuGwNGQVEzkp3eTJwOKNC4uQoPfFIig==
