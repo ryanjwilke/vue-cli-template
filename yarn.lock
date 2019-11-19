@@ -1075,21 +1075,21 @@
     glob-to-regexp "^0.3.0"
 
 "@netlify/build@^0.1.7":
-  version "0.1.20"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-0.1.20.tgz#e176a6068178e30af196e2280d9e623063f4a792"
-  integrity sha512-hgRkqewixyGpJBznb/LPb7r3SbqkcJqw29oGWfKgIJ6QtTqz5j0hvTCkVNS//epZ0UcB/Ys+XIEV3RAVxrtOcg==
+  version "0.1.23"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-0.1.23.tgz#b90cd35f8c836e0836e27609a8832411e370bc23"
+  integrity sha512-laACmxf8DAVymyOLTmtRu6oGvHiDmn4j4YW+TlNIE58RoaCvc8j+WYJUh9iYQJEBDxVWUvHfkAyiOYJOPQiYxg==
   dependencies:
-    "@netlify/config" "^0.1.7"
+    "@netlify/config" "^0.1.8"
     "@netlify/zip-it-and-ship-it" "^0.4.0-7"
     ajv "^6.10.2"
     analytics "0.3.0"
     array-flat-polyfill "^1.0.1"
-    chalk "^2.4.2"
+    chalk "^3.0.0"
     clean-stack "^2.2.0"
     deepmerge "^4.2.2"
-    execa "^3.2.0"
+    execa "^3.3.0"
     fast-glob "^3.1.0"
-    figures "^3.0.0"
+    figures "^3.1.0"
     filter-obj "^2.0.1"
     find-up "^4.1.0"
     group-by "0.0.1"
@@ -1110,18 +1110,18 @@
     redact-env "^0.2.0"
     replacestream "^4.0.3"
     resolve "^1.12.0"
-    string-width "^4.1.0"
-    strip-ansi "^5.2.0"
+    string-width "^4.2.0"
+    strip-ansi "^6.0.0"
     unixify "^1.0.0"
     uuid "^3.3.3"
-    yargs "^14.2.0"
+    yargs "^15.0.2"
 
-"@netlify/config@^0.1.1", "@netlify/config@^0.1.7":
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/@netlify/config/-/config-0.1.7.tgz#056e89cfe2abbadceed2123c980776def8a07f70"
-  integrity sha512-qg3pKzzyxYe6F2hExp7Akv9wJoGLw5zZ9bMv9duAzUkVqyAI/Gcv1ymYi4kkP0cop/92lJ70MzBkfHuexgpvWw==
+"@netlify/config@^0.1.1", "@netlify/config@^0.1.8":
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/@netlify/config/-/config-0.1.8.tgz#4b48db4858403302f37566e32eaa872387e82dec"
+  integrity sha512-UfzXPE3LsvVm0hAadyN8Tz6sYZLw8lf2Mek4gPOEP2ktDE2/ErOOHACii9mkFyNx+8lbMNNL9fenRw7jbxbHPQ==
   dependencies:
-    chalk "^2.4.2"
+    chalk "^3.0.0"
     configorama "^0.3.6"
     deepmerge "^4.2.2"
     dot-prop "^5.2.0"
@@ -6551,9 +6551,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 ejs@^2.6.1:
-  version "2.7.2"
-  resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.7.2.tgz#749037c4c09bd57626a6140afbe6b7e650661614"
-  integrity sha512-rHGwtpl67oih3xAHbZlpw5rQAt+YV1mSCu2fUZ9XNrfaGEhom7E+AUiMci+ByP4aSfuAWx7hE0BPuJLMrpXwOw==
+  version "2.7.3"
+  resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.7.3.tgz#4f437b3992ea0e0757f0ab8d7f29e42593498927"
+  integrity sha512-NtMNsdpaCF23gvHItgT37gzrpzckzs7KB7mg+YH1GMSG/5iZRq1BeWzAhEAJVagfM7nCQDnh/C51j/L2qjZmnA==
 
 electron-to-chromium@^1.3.30, electron-to-chromium@^1.3.306:
   version "1.3.306"
@@ -7009,7 +7009,7 @@ execa@^2.0.3:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
-execa@^3.2.0, execa@^3.3.0:
+execa@^3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/execa/-/execa-3.3.0.tgz#7e348eef129a1937f21ecbbd53390942653522c1"
   integrity sha512-j5Vit5WZR/cbHlqU97+qcnw9WHRCIL4V1SVe75VcHcD1JRBdt8fv0zw89b7CQHQdUHTt2VjuhcF5ibAgVOxqpg==
@@ -7395,7 +7395,7 @@ figures@^2.0.0:
   dependencies:
     escape-string-regexp "^1.0.5"
 
-figures@^3.0.0:
+figures@^3.0.0, figures@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/figures/-/figures-3.1.0.tgz#4b198dd07d8d71530642864af2d45dd9e459c4ec"
   integrity sha512-ravh8VRXqHuMvZt/d8GblBeqDMkdJMBdv/2KntFH+ra5MXkO7nxNKpzQ3n6QD/2da1kH0aWmNISdvhM7gl2gVg==
@@ -17353,9 +17353,9 @@ yargs@^13.3.0:
     yargs-parser "^13.1.1"
 
 yargs@^14.2.0:
-  version "14.2.1"
-  resolved "https://registry.yarnpkg.com/yargs/-/yargs-14.2.1.tgz#2bb87b57c12b9afea40bb4ed9745bb9eb5031a9b"
-  integrity sha512-rZ00XIuGAoI58F0weHyCP3PAN17wJqdN/pF8eMp+imuP+jSdMCD5t4bSf5d5FKPvEDrK9zYlnhO7bFYKQ5UYow==
+  version "14.2.2"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-14.2.2.tgz#2769564379009ff8597cdd38fba09da9b493c4b5"
+  integrity sha512-/4ld+4VV5RnrynMhPZJ/ZpOCGSCeghMykZ3BhdFBDa9Wy/RH6uEGNWDJog+aUlq+9OM1CFTgtYRW5Is1Po9NOA==
   dependencies:
     cliui "^5.0.0"
     decamelize "^1.2.0"
@@ -17369,10 +17369,10 @@ yargs@^14.2.0:
     y18n "^4.0.0"
     yargs-parser "^15.0.0"
 
-yargs@^15.0.0:
-  version "15.0.1"
-  resolved "https://registry.yarnpkg.com/yargs/-/yargs-15.0.1.tgz#558d03c3e5d873431d500f871168967ef673620e"
-  integrity sha512-47i2DJb+gkLpioPBdMmnvb4QkAuyz7tLes9nCgYDXEdPf05tqjCQpUELea3MfmoomS9NKAZlZEifstKIXiASMw==
+yargs@^15.0.0, yargs@^15.0.2:
+  version "15.0.2"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-15.0.2.tgz#4248bf218ef050385c4f7e14ebdf425653d13bd3"
+  integrity sha512-GH/X/hYt+x5hOat4LMnCqMd8r5Cv78heOMIJn1hr7QPPBqfeC6p89Y78+WB9yGDvfpCvgasfmWLzNzEioOUD9Q==
   dependencies:
     cliui "^6.0.0"
     decamelize "^1.2.0"
