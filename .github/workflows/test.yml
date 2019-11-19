@@ -23,7 +23,7 @@ jobs:
       - uses: actions/cache@v1.0.1
         id: yarn-autoclean
         with:
-          path: .yarnclean
+          path: node_modules
           key: yarnclean-${{ hashFiles('**/.yarnclean') }}
       - run: npm install yarn -g
       - run: yarn install
