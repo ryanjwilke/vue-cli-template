@@ -16608,10 +16608,10 @@ vue-cli-plugin-apollo@^0.20.0:
     subscriptions-transport-ws "^0.9.16"
     ts-node "^8.0.3"
 
-vue-cli-plugin-html-validate@^1.1.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/vue-cli-plugin-html-validate/-/vue-cli-plugin-html-validate-1.1.1.tgz#21239d90f80d725498260801a00a54499bdfbd02"
-  integrity sha512-t/lmRcmH/hPcKRyhj/M6q3GWbiRsgYKyd7++K2aZWpzFeaxVpVHNEANqDmyIGabXNcJLAZrb1iLp1Hpy/36wig==
+vue-cli-plugin-html-validate@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/vue-cli-plugin-html-validate/-/vue-cli-plugin-html-validate-1.2.1.tgz#d508a092ea57a241667f00431b663bf4536fde9b"
+  integrity sha512-QVlLWhn8/h7W3BsnJmoSoMgbl0L8U53ztpkJ1mDfUzmFrN0W1Ef+lK04tPNF1Ml3JxFApV/9/BQNdCKZCHevkw==
   dependencies:
     "@vue/cli-shared-utils" "^4.0.0"
 
