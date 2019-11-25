@@ -1,5 +1,6 @@
 {
-  "extends": ["htmlvalidate:recommended"],
+  "plugins": ["html-validate-vue"],
+  "extends": ["htmlvalidate:recommended", "html-validate-vue:recommended"],
   "elements": ["html5", "html-validate-vue/elements"],
   "transform": {
     "^.*\\.vue$": "html-validate-vue"
