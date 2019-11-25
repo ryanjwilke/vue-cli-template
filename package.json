@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.7.4",
-    "@ryanwilke/feather-css": "^2.1.0",
+    "@ryanwilke/feather-css": "^2.5.0",
     "core-js": "^3.4.2",
     "js-yaml-loader": "^1.2.2",
     "vue": "^2.6.10",
