@@ -8627,16 +8627,16 @@ html-validate-vue@^1.4.0:
   resolved "https://registry.yarnpkg.com/html-validate-vue/-/html-validate-vue-1.4.0.tgz#4b7e9383869875f64d6940527bd57967cc796f99"
   integrity sha512-AhxeWI7THE4JK3zJK+X2eruk7MjNNnFSCSsdw8GrIFt0cy+tmRBJRI5Ueg0J9gx91bihH+j1JOLHh2qq7RGT3w==
 
-html-validate@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/html-validate/-/html-validate-2.0.0.tgz#cc791d70cf5ccbf693d978279990013253da734c"
-  integrity sha512-tv5e0XSrb2hXQIgBlxIqVMd0E5wWpd7FyItL7DUwElqNkpT+I+TVbwY0D4KJnZ8aggSCqZ5+zU0SvrIsKmxMdg==
+html-validate@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/html-validate/-/html-validate-2.2.0.tgz#8ea12c797a5ada7ab8e9c5663b51d72db5194df9"
+  integrity sha512-UeP0iMYWc956i1Gkn+8I4jjPxjUEnIEO0x/fslhfYo8uJtQjK8AgmMIyeBrRBwlDxlLXbBSMz3wdfQQOxmN5uw==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     acorn-walk "^7.0.0"
     ajv "^6.10.0"
     better-ajv-errors "^0.6.2"
-    chalk "^2.4.2"
+    chalk "^3.0.0"
     deepmerge "^4.0.0"
     eslint "^6.0.0"
     espree "^6.0.0"
