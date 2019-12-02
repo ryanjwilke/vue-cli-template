@@ -46,7 +46,7 @@
     "babel-eslint": "^10.0.3",
     "babel-jest": "^24.9.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
-    "eslint": "^6.7.1",
+    "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.0.1",
     "html-validate": "^2.4.1",
     "html-validate-vue": "^2.1.0",
