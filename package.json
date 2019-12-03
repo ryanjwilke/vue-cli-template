@@ -12,7 +12,7 @@
     "prettier": "node_modules/.bin/prettier 'src/**/*.{js,json,yml,yaml,md}'",
     "prettier:check": "yarn prettier --check",
     "prettier:write": "yarn prettier --write",
-    "test": "yarn build && yarn prettier:check && yarn test:lint && yarn test:html && yarn test:vue && yarn test:unit:ci && yarn test:unit:coverage",
+    "test": "yarn build && yarn prettier:check && yarn test:lint && yarn test:html && yarn test:vue && yarn test:unit:ci && yarn test:unit:coverage && yarn test:e2e:ci",
     "test:e2e": "NODE_ENV=test jest --config=tests/e2e/.jest.config.js",
     "test:e2e:ci": "yarn test:e2e --ci --runInBand",
     "test:e2e:percy": "RUN_PERCY=true percy exec -- yarn test:e2e:ci",
