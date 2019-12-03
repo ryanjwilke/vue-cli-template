@@ -9,5 +9,8 @@ jobs:
           name: Yarn Install
           command: npm install yarn -g
       - run:
+          name: List
+          command: ls -la
+      - run:
           name: CI Tests
           command: yarn test
