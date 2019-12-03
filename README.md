@@ -3,6 +3,7 @@
 ## Template Status
 
 [![GitHub Status](https://github.com/ryanjwilke/vue-cli-template/workflows/Production/badge.svg)](https://github.com/ryanjwilke/vue-cli-template/actions)
+[![CircleCI Status](https://circleci.com/gh/ryanjwilke/vue-cli-template.svg?style=svg)](https://circleci.com/gh/ryanjwilke/vue-cli-template)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/45dfe48b-2dfe-4c6e-8186-058ac9a15d7a/deploy-status)](https://app.netlify.com/sites/vue-cli-template/deploys)
 [![Percy Status](https://percy.io/static/images/percy-badge.svg)](https://percy.io/ryanwilke/vue-cli-template)
 
