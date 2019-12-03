@@ -1,7 +1,6 @@
 version: 2.1
 jobs:
   build:
-    working_directory: ~/mern-starter
     docker:
       - image: node:11.15.0
     steps:
