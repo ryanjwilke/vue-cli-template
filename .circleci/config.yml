@@ -6,9 +6,6 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Yarn Install
-          command: npm install yarn -g
-      - run:
           name: List
           command: ls -la
       - run:
