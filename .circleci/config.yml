@@ -18,5 +18,16 @@ jobs:
           paths:
             - ~/.cache/yarn
       - run:
-          name: CI Tests
-          command: yarn test
+          command: yarn build
+      - run:
+          command: yarn prettier:check
+      - run:
+          command: yarn test:lint
+      - run:
+          command: yarn test:html
+      - run:
+          command: yarn test:vue
+      - run:
+          command: yarn test:unit:ci
+      - run:
+          command: yarn test:unit:coverage
