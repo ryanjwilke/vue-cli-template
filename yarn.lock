@@ -59,7 +59,7 @@
   dependencies:
     "@babel/highlight" "^7.0.0"
 
-"@babel/core@^7.0.0", "@babel/core@^7.1.0", "@babel/core@^7.1.6", "@babel/core@^7.7.4":
+"@babel/core@^7.0.0", "@babel/core@^7.1.0", "@babel/core@^7.1.6", "@babel/core@^7.7.4", "@babel/core@^7.7.5":
   version "7.7.5"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.7.5.tgz#ae1323cd035b5160293307f50647e83f8ba62f7e"
   integrity sha512-M42+ScN4+1S9iB6f+TL7QBpoQETxbclx+KNoKJABghnKYE+fMzSGqst0BZJc8CpI625bwPwYgUyRvxZ+0mZzpw==
@@ -8587,7 +8587,7 @@ html-validate-vue@^2.2.1:
   resolved "https://registry.yarnpkg.com/html-validate-vue/-/html-validate-vue-2.2.1.tgz#7fd486a34defa43bdcfb5404b984c482fb541da7"
   integrity sha512-7nBbPgkz3Uhk0u7lP/9ZNvKO+pnaTPX8EDPUdKvRGIqeyI8IaLlr+N31+MTBEj3RJ3Mc9+M8xQs1B3BlospnPg==
 
-html-validate@^2.4.1:
+html-validate@^2.4.3:
   version "2.4.3"
   resolved "https://registry.yarnpkg.com/html-validate/-/html-validate-2.4.3.tgz#5333198248bb17ae162f4cc4ffa144999c23bc87"
   integrity sha512-w17XoYFGW5MS6EfvuF/njPCq9oSlyHogZI7UJc6/WQiMDji6nefztqbGzeDNtPDgmiOkLwRwRp6ael96Pw8n0w==
