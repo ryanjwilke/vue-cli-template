@@ -23,6 +23,7 @@ jobs:
       - run: npm install yarn -g
       - run: yarn install
         if: steps.cache.outputs.cache-hit != 'true'
+      - run: yarn audit
       - run: yarn build
       - run: yarn prettier:check
       - run: yarn test:lint
