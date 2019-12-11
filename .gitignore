@@ -25,4 +25,4 @@ __report__
 *.sw?
 
 # Netlify CLI
-.netlify/config.json
+.netlify
