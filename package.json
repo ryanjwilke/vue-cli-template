@@ -30,7 +30,7 @@
   "dependencies": {
     "@babel/core": "^7.7.5",
     "@ryanwilke/feather-css": "^2.5.0",
-    "core-js": "^3.4.8",
+    "core-js": "^3.5.0",
     "js-yaml-loader": "^1.2.2",
     "vue": "^2.6.11",
     "vue-router": "^3.0.6"
