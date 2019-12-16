@@ -1487,6 +1487,17 @@
   dependencies:
     any-observable "^0.3.0"
 
+"@sidvind/better-ajv-errors@^0.6.9":
+  version "0.6.10"
+  resolved "https://registry.yarnpkg.com/@sidvind/better-ajv-errors/-/better-ajv-errors-0.6.10.tgz#825aa57e601e3145df493742a73a5e70b5d910d8"
+  integrity sha512-vPv8ks6J1KQW1LPYgxmANxcHniE6LFuekxNpcoUUkotJ2srxP4qXZ+y9qpo5LAXhnLoNP0AH8cninimK68gS6A==
+  dependencies:
+    "@babel/code-frame" "^7.0.0"
+    chalk "^2.4.1"
+    json-to-ast "^2.0.3"
+    jsonpointer "^4.0.1"
+    leven "^3.1.0"
+
 "@sindresorhus/is@^0.7.0":
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
@@ -4084,19 +4095,6 @@ before-after-hook@^2.0.0:
   resolved "https://registry.yarnpkg.com/before-after-hook/-/before-after-hook-2.1.0.tgz#b6c03487f44e24200dd30ca5e6a1979c5d2fb635"
   integrity sha512-IWIbu7pMqyw3EAJHzzHbWa85b6oud/yfKYg5rqB5hNE8CeMi3nX+2C2sj0HswfblST86hpVEOAb9x34NZd6P7A==
 
-better-ajv-errors@^0.6.2:
-  version "0.6.7"
-  resolved "https://registry.yarnpkg.com/better-ajv-errors/-/better-ajv-errors-0.6.7.tgz#b5344af1ce10f434fe02fc4390a5a9c811e470d1"
-  integrity sha512-PYgt/sCzR4aGpyNy5+ViSQ77ognMnWq7745zM+/flYO4/Yisdtp9wDQW2IKCyVYPUxQt3E/b5GBSwfhd1LPdlg==
-  dependencies:
-    "@babel/code-frame" "^7.0.0"
-    "@babel/runtime" "^7.0.0"
-    chalk "^2.4.1"
-    core-js "^3.2.1"
-    json-to-ast "^2.0.3"
-    jsonpointer "^4.0.1"
-    leven "^3.1.0"
-
 bfj@^6.1.1:
   version "6.1.2"
   resolved "https://registry.yarnpkg.com/bfj/-/bfj-6.1.2.tgz#325c861a822bcb358a41c78a33b8e6e2086dde7f"
@@ -5460,7 +5458,7 @@ core-js@^2.4.0, core-js@^2.5.0, core-js@^2.6.5:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.11.tgz#38831469f9922bded8ee21c9dc46985e0399308c"
   integrity sha512-5wjnpaT/3dV+XB4borEsnAYQchn00XSgTAWKDkEqv+K8KevjbzmofK6hfJ9TZIlpj2N0xQpazy7PiRQiWHqzWg==
 
-core-js@^3.0.1, core-js@^3.2.1, core-js@^3.3.6, core-js@^3.4.3, core-js@^3.4.8:
+core-js@^3.0.1, core-js@^3.3.6, core-js@^3.4.3, core-js@^3.4.8:
   version "3.4.8"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.4.8.tgz#e0fc0c61f2ef90cbc10c531dbffaa46dfb7152dd"
   integrity sha512-b+BBmCZmVgho8KnBUOXpvlqEMguko+0P+kXCwD4vIprsXC6ht1qgPxtb1OK6XgSlrySF71wkwBQ0Hv695bk9gQ==
@@ -8587,15 +8585,15 @@ html-validate-vue@^2.2.1:
   resolved "https://registry.yarnpkg.com/html-validate-vue/-/html-validate-vue-2.2.1.tgz#7fd486a34defa43bdcfb5404b984c482fb541da7"
   integrity sha512-7nBbPgkz3Uhk0u7lP/9ZNvKO+pnaTPX8EDPUdKvRGIqeyI8IaLlr+N31+MTBEj3RJ3Mc9+M8xQs1B3BlospnPg==
 
-html-validate@^2.4.3:
-  version "2.4.3"
-  resolved "https://registry.yarnpkg.com/html-validate/-/html-validate-2.4.3.tgz#5333198248bb17ae162f4cc4ffa144999c23bc87"
-  integrity sha512-w17XoYFGW5MS6EfvuF/njPCq9oSlyHogZI7UJc6/WQiMDji6nefztqbGzeDNtPDgmiOkLwRwRp6ael96Pw8n0w==
+html-validate@^2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/html-validate/-/html-validate-2.7.0.tgz#0f3e771b5b889c16d53e46beeff6fdf7e1705d6a"
+  integrity sha512-ZzSDBCgYPOm3ARpjfPxqF809XJvN4UVIgxEAZ7ro+BzNoSreHfZH/Ka3Xog4r2nAN9sO/Bv+9jQDIRp+f6EVrw==
   dependencies:
     "@babel/code-frame" "^7.0.0"
+    "@sidvind/better-ajv-errors" "^0.6.9"
     acorn-walk "^7.0.0"
     ajv "^6.10.0"
-    better-ajv-errors "^0.6.2"
     chalk "^3.0.0"
     deepmerge "^4.0.0"
     eslint "^6.0.0"
