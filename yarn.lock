@@ -8580,10 +8580,10 @@ html-tags@^2.0.0:
   resolved "https://registry.yarnpkg.com/html-tags/-/html-tags-2.0.0.tgz#10b30a386085f43cede353cc8fa7cb0deeea668b"
   integrity sha1-ELMKOGCF9Dzt41PMj6fLDe7qZos=
 
-html-validate-vue@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/html-validate-vue/-/html-validate-vue-2.3.0.tgz#c4475ed114d5f24a783de6004012ab685e2e65b3"
-  integrity sha512-iJag5LgPT1dPsdFLmShszFx1wpaYwF4SUcvmIvnQr0AYp4AFnjDw8I7NpFN4mpqndiawOY9S/LuDKnX3T57lxQ==
+html-validate-vue@^2.3.4:
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/html-validate-vue/-/html-validate-vue-2.3.4.tgz#33fa6a836bf592b420904ed20011f97a74dd1718"
+  integrity sha512-xqp+7D2wAPI8ErE+tRKqqLBPLsEey6W8qPdkFv0wAHeGmqnCLnyk/gLnGkQr9t7W/rLNAwWwWsCttK2UtBlAfA==
 
 html-validate@^2.7.0:
   version "2.7.0"
