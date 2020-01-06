@@ -8577,10 +8577,10 @@ html-validate-vue@^2.3.4:
   resolved "https://registry.yarnpkg.com/html-validate-vue/-/html-validate-vue-2.3.4.tgz#33fa6a836bf592b420904ed20011f97a74dd1718"
   integrity sha512-xqp+7D2wAPI8ErE+tRKqqLBPLsEey6W8qPdkFv0wAHeGmqnCLnyk/gLnGkQr9t7W/rLNAwWwWsCttK2UtBlAfA==
 
-html-validate@^2.7.0:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/html-validate/-/html-validate-2.7.0.tgz#0f3e771b5b889c16d53e46beeff6fdf7e1705d6a"
-  integrity sha512-ZzSDBCgYPOm3ARpjfPxqF809XJvN4UVIgxEAZ7ro+BzNoSreHfZH/Ka3Xog4r2nAN9sO/Bv+9jQDIRp+f6EVrw==
+html-validate@^2.8.0:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/html-validate/-/html-validate-2.8.0.tgz#af019b86e5df9dcdc165afbd27d0bd0d1c4b984a"
+  integrity sha512-hhwHPSSxzpf/UhhB2uh+F0i+PNG6ZXbZXublZF9nwp+aGWPDFsdGn04+Ifqk2azSs/gnKwd+7bYtKwRReRaD0A==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@sidvind/better-ajv-errors" "^0.6.9"
