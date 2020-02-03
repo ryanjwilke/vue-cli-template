@@ -50,7 +50,7 @@
     "eslint": "^6.8.0",
     "eslint-plugin-vue": "^6.1.2",
     "html-validate": "^2.12.0",
-    "html-validate-vue": "^2.3.4",
+    "html-validate-vue": "^2.5.1",
     "husky": "^4.0.7",
     "jest": "^25.1.0",
     "jest-puppeteer": "^4.4.0",
