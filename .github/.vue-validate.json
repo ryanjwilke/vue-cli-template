@@ -31,6 +31,6 @@
     "unrecognized-char-ref": "error",
     "wcag/h30": "error",
     "wcag/h32": "warn",
-    "void": ["error", { "style": "selfclose" }]
+    "void": "off"
   }
 }
