@@ -18,7 +18,7 @@
     "test:e2e:ci": "yarn test:e2e --ci --runInBand",
     "test:e2e:percy": "RUN_PERCY=true percy exec -- yarn test:e2e:ci",
     "test:e2e:update": "yarn test:e2e --updateSnapshot",
-    "test:html": "NODE_ENV=test vue-cli-service html-validate --config .github/.html-validate.json --max-warnings 0 --ext html ./dist",
+    "test:html": "NODE_ENV=test vue-cli-service html-validate --config .github/.html-validate.json --max-warnings 5 --ext html ./dist",
     "test:lint": "NODE_ENV=test vue-cli-service lint --max-warnings 0",
     "test:unit": "NODE_ENV=test vue-cli-service test:unit --reporters default --no-cache --verbose",
     "test:unit:ci": "yarn test:unit --ci",

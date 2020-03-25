@@ -28,10 +28,10 @@ module.exports = {
       args[0].minify = {
         removeComments: true,
         keepClosingSlash: true,
-        collapseWhitespace: false,
+        collapseWhitespace: true,
         removeAttributeQuotes: false,
         collapseBooleanAttributes: false,
-        removeScriptTypeAttributes: false,
+        removeScriptTypeAttributes: true,
       }
       return args
     })
