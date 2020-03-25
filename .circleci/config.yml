@@ -15,7 +15,7 @@ jobs:
           key: yarn-packages-{{ checksum "yarn.lock" }}
           paths:
             - ~/.cache/yarn
-      - run: yarn audit
+      # - run: yarn audit # broken because of https://github.com/netlify/vue-cli-plugin-netlify-lambda/issues/17
       - run: yarn build
       - run: yarn prettier:check
       - run: yarn test:lint
