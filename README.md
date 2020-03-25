@@ -10,6 +10,7 @@
 ## First-time Setup
 
 ```
+yarn setup
 yarn install
 yarn git:init
 ```

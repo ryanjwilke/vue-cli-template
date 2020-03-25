@@ -4,6 +4,7 @@
   "license": "MIT",
   "author": "Ryan Wilke",
   "scripts": {
+    "setup": "yarn global add netlify-cli",
     "build": "vue-cli-service build --mode production",
     "git:diff:template": "git remote update && git diff remotes/template/master",
     "git:diff:template:compact": "yarn git:diff:template --compact-summary . ':!*.svg' ':!*.spec.js*' ':!*.vue' ':!*.css.yml' ':!*.snap*' ':!*.lock' ':!src' ':!public' ':!tests/data'",
@@ -58,7 +59,6 @@
     "jest-puppeteer": "^4.4.0",
     "jest-screenshot": "^0.3.0",
     "lint-staged": "^10.0.7",
-    "netlify-cli": "^2.32.0",
     "prettier": "^2.0.2",
     "puppeteer": "^2.1.1",
     "sass": "^1.25.0",
