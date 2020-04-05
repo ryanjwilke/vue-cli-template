@@ -8021,10 +8021,10 @@ html-tags@^2.0.0:
   resolved "https://registry.yarnpkg.com/html-tags/-/html-tags-2.0.0.tgz#10b30a386085f43cede353cc8fa7cb0deeea668b"
   integrity sha1-ELMKOGCF9Dzt41PMj6fLDe7qZos=
 
-html-validate-vue@^3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/html-validate-vue/-/html-validate-vue-3.0.3.tgz#bd9a04668f155f512a2a13eb243149904a4840ad"
-  integrity sha512-lvY91hbhKJJamm1ognLQBb1AThV99zUbx8CLGNnOfn4dgS3nKCNPKrMx+ddcGaG8+c+W1X49awlSY2oKDRnfLw==
+html-validate-vue@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/html-validate-vue/-/html-validate-vue-3.1.0.tgz#63675826a35bb99a53fd5563ffe396014894a875"
+  integrity sha512-CST7fYd9rOujWKO+KH0HU86fBnU1T3N64EBMwJvAvS8Li/i2sQUCPTnyh2QKN9bx3x9ruGIEHmPxtXl+nZXWmw==
   dependencies:
     semver "^7.1.1"
 
