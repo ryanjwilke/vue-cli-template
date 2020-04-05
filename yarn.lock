@@ -8028,10 +8028,10 @@ html-validate-vue@^3.0.3:
   dependencies:
     semver "^7.1.1"
 
-html-validate@^2.14.0:
-  version "2.19.0"
-  resolved "https://registry.yarnpkg.com/html-validate/-/html-validate-2.19.0.tgz#872809d4333e2fec48204efa5d24b31acf4d5a72"
-  integrity sha512-RhhsMebdajKd4JDeEOzxJxmf7ALJVsUjxaZhi3sk59iC4PIuzPnvIfW5EmFb5x2Bf1eSyTyKb1dm4gw4NR8b/A==
+html-validate@^2.20.0:
+  version "2.20.0"
+  resolved "https://registry.yarnpkg.com/html-validate/-/html-validate-2.20.0.tgz#fb6c4e2d2bd817860254d4bb6a0ebaf9e169e6fa"
+  integrity sha512-6EYNr5AJWrUnNx/1UcwwQbmo5khZUFptbvOset95uE0Ge27W5HcB/1JdGFGavMgsphRqNNlbmtQKUDc6s4TBfg==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@sidvind/better-ajv-errors" "^0.6.9"
