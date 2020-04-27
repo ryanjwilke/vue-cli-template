@@ -8081,10 +8081,10 @@ html-validate-vue@^3.1.0:
   dependencies:
     semver "^7.1.1"
 
-html-validate@^2.20.1:
-  version "2.20.1"
-  resolved "https://registry.yarnpkg.com/html-validate/-/html-validate-2.20.1.tgz#0262edf64e4d9858a1b6029f1aeef8402852e43c"
-  integrity sha512-ltqbGKTOrvOI2wPQ7HT2VH9Kyc5JFqMgi69donu4E+433ksc6uV9Iy5gDeWqnChQXiwoIAJRTyrARun+aSRdwg==
+html-validate@^2.21.0:
+  version "2.21.0"
+  resolved "https://registry.yarnpkg.com/html-validate/-/html-validate-2.21.0.tgz#c0b7fd47ec189609027d44bb1a2c605d7080ea4a"
+  integrity sha512-3Zf0+kLuUcOVG7AzPt2ylyBMwIhDyIeEsK6De91oJeapxKWFWV2VEnWPvO8V9Pv9hohRDM3y8CllyIH3TSUxyQ==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@sidvind/better-ajv-errors" "^0.6.9"
