@@ -10097,16 +10097,16 @@ jest-runtime@^25.5.3:
     strip-bom "^4.0.0"
     yargs "^15.3.1"
 
-jest-screenshot@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/jest-screenshot/-/jest-screenshot-0.3.0.tgz#4475fff8b66afd3840469d46ae0543f45d92a872"
-  integrity sha512-TibZYFtTnG7Em0OWH0M+uIp1J2GJxJ1QEsZn2YoWlupv8LWFBwW/YWBAgsyWroZbw04aYrIVWusZJa+kfdV7ZA==
+jest-screenshot@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/jest-screenshot/-/jest-screenshot-0.3.1.tgz#b2051dcad99cc02966da0b46236251bfd3f9d6f0"
+  integrity sha512-ZRucLVgcchMkx75cOeaLHNKWuVZsX/iYlB5L22vEgUi13zoRyGRHyG/E2l1ngfr6hIzr2qnEqzFuGUuC0taLYQ==
   dependencies:
     chalk "^3.0.0"
     lodash.kebabcase "^4.1.1"
     mkdirp "^1.0.3"
-    native-image-diff "^0.1.9"
-    node-libpng "^0.2.7"
+    native-image-diff "^0.1.10"
+    node-libpng "^0.2.14"
 
 jest-serializer-vue@^2.0.2:
   version "2.0.2"
@@ -11564,10 +11564,10 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-native-image-diff@^0.1.9:
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/native-image-diff/-/native-image-diff-0.1.9.tgz#bc57abe9a41b692f00db905f6982ab9c8d1c23cf"
-  integrity sha512-Sp/vDGG5faQUyAaTm0qvR0MuwyVBP7gL8Yc1JQqF2ZLk0rVszRWZWrZ/nVqzQwh9YxD1MvcwbIwEzk09gc1YVA==
+native-image-diff@^0.1.10:
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/native-image-diff/-/native-image-diff-0.1.10.tgz#fae46881e1dc51098b18670ad2d690d0cecdd9d2"
+  integrity sha512-asBfqfeCCH1MdrusfQKg30aPI+U6B0wqvN4ugfOUbEita3bWZrw2qLszT/q/XvP1I+j2/EUzJyNy1Qk6BVwzVA==
   dependencies:
     request "^2.88.0"
 
@@ -11676,10 +11676,10 @@ node-ipc@^9.1.1:
     js-message "1.0.5"
     js-queue "2.0.0"
 
-node-libpng@^0.2.7:
-  version "0.2.13"
-  resolved "https://registry.yarnpkg.com/node-libpng/-/node-libpng-0.2.13.tgz#8a8b94cd3ea99f3db196ad0ae5214df1a645a1da"
-  integrity sha512-SJkfIS0No/S62QBGie+8wAVDnwu6Eqjx/oGxc4OfjxDRQIGO0L29dL7gbu7bSKUh4MtIUVARrqY4Olu9Vn4MBA==
+node-libpng@^0.2.14:
+  version "0.2.14"
+  resolved "https://registry.yarnpkg.com/node-libpng/-/node-libpng-0.2.14.tgz#3c8062f995115bb0394b3d9616d0b6c229954eee"
+  integrity sha512-EPUA7MbQqtA7rhbC4xJAAMvDT5mdpq3G1JJMa56R8uyEOq86Pr1XOllWdQgQDNEjy+P9g4ZrHw2yrFg8B6mIOw==
   dependencies:
     request "^2.88.0"
 
