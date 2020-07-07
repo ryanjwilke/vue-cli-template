@@ -62,7 +62,7 @@
     "prettier": "^2.0.5",
     "puppeteer": "^2.1.1",
     "sass": "^1.26.10",
-    "sass-loader": "^9.0.1",
+    "sass-loader": "^9.0.2",
     "vue-cli-plugin-html-validate": "^1.2.3",
     "vue-cli-plugin-jest-puppeteer": "^0.1.4",
     "vue-cli-plugin-netlify-lambda": "^0.1.1",
