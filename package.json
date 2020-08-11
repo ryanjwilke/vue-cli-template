@@ -4,7 +4,6 @@
   "license": "MIT",
   "author": "Ryan Wilke",
   "scripts": {
-    "setup": "yarn global add netlify-cli",
     "build": "vue-cli-service build --mode production",
     "git:diff:template": "git remote update && git diff remotes/template/master",
     "git:diff:template:compact": "yarn git:diff:template --compact-summary . ':!*.svg' ':!*.spec.js*' ':!*.vue' ':!*.css.yml' ':!*.snap*' ':!*.lock' ':!src' ':!public' ':!tests/data'",

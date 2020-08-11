@@ -23,6 +23,3 @@ __report__
 *.njsproj
 *.sln
 *.sw?
-
-# Netlify CLI
-.netlify
