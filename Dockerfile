@@ -1,4 +1,4 @@
-FROM node:11.15.0
+FROM node:12.18.3
 
 # Set default locale for the environment
 ENV LC_ALL C.UTF-8
