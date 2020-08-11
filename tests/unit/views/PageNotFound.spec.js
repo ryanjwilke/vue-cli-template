@@ -5,7 +5,7 @@ describe('PageNotFound', () => {
   const wrapper = shallowMount(PageNotFound)
 
   it('is a Vue instance', () => {
-    expect(wrapper.isVueInstance()).toBeTruthy()
+    expect(wrapper).toBeTruthy()
   })
 
   it('renders correctly', () => {

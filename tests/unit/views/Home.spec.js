@@ -5,7 +5,7 @@ describe('Home', () => {
   const wrapper = shallowMount(Home)
 
   it('is a Vue instance', () => {
-    expect(wrapper.isVueInstance()).toBeTruthy()
+    expect(wrapper).toBeTruthy()
   })
 
   it('renders correctly', () => {

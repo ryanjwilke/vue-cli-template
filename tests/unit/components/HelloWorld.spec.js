@@ -9,8 +9,7 @@ describe('HelloWorld', () => {
   })
 
   it('is a Vue instance', () => {
-    expect(wrapper.isVueInstance()).toBeTruthy()
-    expect(wrapper.name()).toBe('HelloWorld')
+    expect(wrapper).toBeTruthy()
   })
 
   it('renders correctly', () => {
