@@ -34,7 +34,7 @@
     "core-js": "^3.6.5",
     "js-yaml-loader": "^1.2.2",
     "serialize-javascript": "^4.0.0",
-    "vue": "^2.6.11",
+    "vue": "^2.6.12",
     "vue-router": "^3.4.3"
   },
   "devDependencies": {
@@ -65,7 +65,7 @@
     "vue-cli-plugin-html-validate": "^1.2.3",
     "vue-cli-plugin-jest-puppeteer": "^0.1.4",
     "vue-svg-loader": "^0.16.0",
-    "vue-template-compiler": "^2.6.11",
+    "vue-template-compiler": "^2.6.12",
     "yaml-jest": "^1.0.5"
   },
   "resolutions": {
