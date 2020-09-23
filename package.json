@@ -59,7 +59,7 @@
     "jest-screenshot": "^0.3.1",
     "lint-staged": "^10.4.0",
     "prettier": "^2.1.2",
-    "puppeteer": "^5.3.0",
+    "puppeteer": "^5.3.1",
     "sass": "^1.26.11",
     "sass-loader": "^10.0.2",
     "vue-cli-plugin-html-validate": "^1.2.3",
