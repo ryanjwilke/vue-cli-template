@@ -54,7 +54,7 @@
     "html-validate": "^3.3.0",
     "html-validate-vue": "^3.1.0",
     "husky": "^4.3.0",
-    "jest": "^26.5.0",
+    "jest": "^26.5.2",
     "jest-puppeteer": "^4.4.0",
     "jest-screenshot": "^0.3.1",
     "lint-staged": "^10.4.0",
