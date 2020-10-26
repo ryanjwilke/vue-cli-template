@@ -12271,10 +12271,10 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-vue-cli-plugin-html-validate@^1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/vue-cli-plugin-html-validate/-/vue-cli-plugin-html-validate-1.2.3.tgz#5f93e4fd49b593de99c50ca8584093a7f086865d"
-  integrity sha512-rVQWlwaXQesEIs1ICCktoTqi1sL7q/zWw62MakhTweTHGIxJeaYvVvd3wlxu6NhM5QJwKAlgnDgwnVnMgI2ZTg==
+vue-cli-plugin-html-validate@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/vue-cli-plugin-html-validate/-/vue-cli-plugin-html-validate-1.2.4.tgz#f40eecd5f54672000bdb265cf08c787bfc7cc752"
+  integrity sha512-HlVziYL5r/EReDH9vlbwYqspRM1JgoMmmgdp9TbaeT/mBJPvPbSS4OhTyCGhAoXKh6yGzxjQpRaClI7bSuTDvg==
   dependencies:
     "@vue/cli-shared-utils" "^4.0.0"
 
