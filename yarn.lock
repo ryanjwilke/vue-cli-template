@@ -6207,10 +6207,10 @@ html-tags@^3.1.0:
   resolved "https://registry.yarnpkg.com/html-tags/-/html-tags-3.1.0.tgz#7b5e6f7e665e9fb41f30007ed9e0d41e97fb2140"
   integrity sha512-1qYz89hW3lFDEazhjW0yVAV87lw8lVkrJocr72XmBkMKsoSVJCQx3W8BXsC7hO2qAt8BoVjYjtAcZ9perqGnNg==
 
-html-validate-vue@^3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/html-validate-vue/-/html-validate-vue-3.1.1.tgz#fe26394c90fc21dc06f151b6a1914270b65a5e17"
-  integrity sha512-YZCd8FCtGhT7UlU8mIHmlEEoWkRRTN38Z8EAqrF+/nQK+1cRnVv8Xr4XlKdGoFiSRLGVBjCaGPGbEzrjhf0Mxg==
+html-validate-vue@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/html-validate-vue/-/html-validate-vue-3.1.2.tgz#4a860573ef006975b2040abfe9aed69040d1882b"
+  integrity sha512-3Likn6mTgwUMaz6RijiGTwmsoLNT3Ewp8VWKCLcyJhX0Y68FYfXMlZo3kqPOsL2wmKU2c96ZFHH6S22HDSzefw==
   dependencies:
     semver "^7.1.1"
 
