@@ -25,7 +25,9 @@
     "test:unit:update": "yarn test:unit --updateSnapshot",
     "test:vue": "NODE_ENV=test vue-cli-service html-validate --config .github/.vue-validate.json --max-warnings 0",
     "vue:serve": "yarn vue:start --open",
-    "vue:start": "vue-cli-service serve"
+    "vue:start": "vue-cli-service serve",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@babel/core": "^7.12.3",
@@ -35,7 +37,8 @@
     "js-yaml-loader": "^1.2.2",
     "serialize-javascript": "^5.0.1",
     "vue": "^2.6.12",
-    "vue-router": "^3.4.9"
+    "vue-router": "^3.4.9",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@percy/puppeteer": "^1.1.0",
@@ -176,5 +179,6 @@
       "eslint --fix",
       "git add"
     ]
-  }
+  },
+  "snyk": true
 }
